@@ -3,7 +3,7 @@ import image from "../assets/image-qr-code.png"
 
 const Container = () => {
   return (
-    <div className='w-[320px] h-[499px] bg-white rounded-xl px-[16px] pt-[19px] pb-[40px]'>
+    <div className='w-[320px] h-[499px] bg-white rounded-xl px-[16px] pt-[19px] pb-[40px] shadow-xl'>
         <div className='rounded-lg overflow-hidden'>
             <img src={image} alt="QR Code" />
         </div>
